@@ -94,6 +94,64 @@
     </main>
   </div>
 
+  <button class="coin-shop-toggle" id="coinShopToggle" type="button" aria-expanded="false" aria-controls="coinShopPanel">
+    COIN SHOP
+  </button>
+
+  <section class="coin-shop-panel hidden" id="coinShopPanel" role="dialog" aria-modal="true" aria-labelledby="coinShopTitle">
+    <div class="coin-shop-window">
+      <header class="coin-shop-titlebar">
+        <div>
+          <div class="panel-kicker">REWARD STORE</div>
+          <h2 id="coinShopTitle">코인 상점 OPEN</h2>
+        </div>
+        <button class="coin-shop-close" id="coinShopClose" type="button" aria-label="코인 상점 닫기">×</button>
+      </header>
+
+      <p class="coin-shop-note">보유 코인으로 아래 보상을 요청할 수 있습니다.</p>
+
+      <div class="coin-shop-list">
+        <article class="coin-shop-item">
+          <span>3,000 COIN</span>
+          <strong>알 키우기 사료</strong>
+          <p>알 키우기에서 사용할 수 있는 기본 소모품입니다.</p>
+        </article>
+        <article class="coin-shop-item">
+          <span>3,000 COIN</span>
+          <strong>알 키우기 목욕 용품</strong>
+          <p>알 키우기에서 사용할 수 있는 관리 소모품입니다.</p>
+        </article>
+        <article class="coin-shop-item">
+          <span>10,000 COIN</span>
+          <strong>주식 게임 환전</strong>
+          <p>10,000 코인 단위로 주식 게임의 10,000원으로 환전됩니다.</p>
+        </article>
+        <article class="coin-shop-item">
+          <span>50만 COIN</span>
+          <strong>메인 사이트 계정 등재 요청</strong>
+          <p>별도 VIP란에 계정이 등록됩니다.</p>
+        </article>
+        <article class="coin-shop-item">
+          <span>100만 COIN</span>
+          <strong>5천 자 이상 원하는 주제 글 작성</strong>
+          <p>드림, 수위 요청 가능합니다.</p>
+        </article>
+        <article class="coin-shop-item premium-silver">
+          <span>1억 COIN</span>
+          <strong>너만을 위한 사이트 제작</strong>
+          <p>게임, 프로필 등 개인 페이지 요청 가능합니다. 일러스트 미지참 시, 소정 부분 지원됩니다.</p>
+        </article>
+        <article class="coin-shop-item premium-gold">
+          <span>2억 COIN</span>
+          <strong>일일 복스 데이트권</strong>
+          <p>하루 동안 최고의 알파 CEO 애인이 되어봅시다.</p>
+        </article>
+      </div>
+
+      <div class="coin-shop-footer">일부 보상은 DM 확인 후 진행되며, 작업 난이도에 따라 세부 내용이 조정될 수 있습니다.</div>
+    </div>
+  </section>
+
   <div class="access-lock hidden" id="portalLock" aria-live="polite">
     <div class="access-lock-card">
       <div class="eyebrow">PORTAL SESSION REQUIRED</div>
